@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="eS">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="viajes, turismo, chile, hotel">
+    <meta name="author" content="Yonny Rondón">
+    <meta name="description" content="Agencia de Viajes y Turismo en Chile">
+
+    <title>Viajes Chile - Turismo VIP</title>
+
+    <!-- GOOGLE FONTS -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
+        rel="stylesheet">
+
+    <!-- FONT AWESOME -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+        integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- BOOTSTRAP CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+
+    <!-- BOOTSTRAP JS -->
+    <script defer src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+
+    <!-- JQUERY CDN -->
+    <script defer src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"
+        integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+    <!-- ESTILOS CSS -->
+    <link rel="stylesheet" href="./assets/css/styles.css">
+
+    <!-- Javascript -->
+    <script defer src="./assets/js/script.js"></script>
+
+    <!-- ICONO -->
+    <link rel="shortcut icon" href="./assets/img/viajes.svg" type="icon/x">
+
+</head>
+
+
+
+<!-- INICIO BODY -->
+
+<body class="bg-black container-fluid m-0 px-0" id="body">
+
+    <!-- NAVBAR -->
+    <nav class="navbar navbar-expand-md navbar-dark fixed-top px-5" id="navbar">
+        <div class="container">
+            <a id="logo" class="navbar-brand" href="#" data-bs-toggle="tooltip" data-bs-placement="top"
+                data-bs-custom-class="custom-tooltip" data-bs-title="Tu agencia de viajes en Chile">
+                <img src="./assets/img/viajes.svg" alt="icono" width="30px">
+                <span class="fw-bold">Viajes Chile</span>
+            </a>
+
+            <div>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="text-end">
+                    <div class="collapse navbar-collapse" id="navbarNav">
+                        <ul class="navbar-nav">
+
+                            <li class="nav-item">
+                                <a class="nav-link" aria-current="page" href="#inicio">Inicio</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#quienes-somos">Quiénes somos</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="destacados">Destacados</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#contacto">Contacto</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- CAROUSEL -->
+    <section class="container-fluid my-0 p-0">
+        <div id="carouselExample" class="carousel slide">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="./assets/img/carousel1.jpg" class="d-block w-100" alt="carousel1">
+                </div>
+                <div class="carousel-item">
+                    <img src="./assets/img/carousel2.jpg" class="d-block w-100" alt="carousel2">
+                </div>
+                <div class="carousel-item">
+                    <img src="./assets/img/carousel3.jpg" class="d-block w-100" alt="carousel3">
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+
+    </section>
+
+
+
+    <!-- MAIN -->
+    <section class="container-fluid justify-content-center px-5 py-5 justify-content-between" id="main">
+
+        <!-- QUIÉNES SOMOS -->
+        <div class="container-fluid d-none d-md-block my-0 p-0" id="quienes-somos">
+            <h2 class="text-center pb-3">¿QUIÉNES SOMOS?</h2>
+            <hr>
+            <div class="row">
+                <div class="col-4">
+                    <div class="bg-info text-center custom-height d-flex justify-content-center align-items-center"
+                        style="height: 7vh;">
+                        <i class="fa-solid fa-plane fa-2x"></i>
+                    </div>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor atque impedit est recusandae numquam
+                    cumque blanditiis, rerum cupiditate dignissimos et laboriosam natus explicabo exercitationem, quod
+                    amet repellat ex deleniti. Ipsum.
+                </div>
+
+                <div class="col-4">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio praesentium, voluptas quos fuga,
+                    ipsam enim ab voluptatibus natus eum illo distinctio! Tempore minima repellendus in, id vero nulla
+                    maiores ipsum.
+                    <div class="bg-info text-center custom-height d-flex justify-content-center align-items-center"
+                        style="height: 7vh;">
+                        <i class="fa-solid fa-mountain fa-2x"></i>
+                    </div>
+                </div>
+
+                <div class="col-4">
+                    <div class="bg-info text-center custom-height d-flex justify-content-center align-items-center"
+                        style="height: 7vh;">
+                        <i class="fa-solid fa-route fa-2x"></i>
+                    </div>
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Iste, suscipit obcaecati modi distinctio
+                    possimus voluptates deleniti nobis ea esse dolores dolorem magnam consequatur animi officia
+                    quibusdam voluptate sunt at porro.
+                </div>
+            </div>
+        </div>
+
+        <!-- DESTACADOS -->
+        <div class="container-fluid row pt-5 mt-0">
+            <h2 class="text-center pb-3">DESTACADOS</h2>
+            <hr>
+            <div class="col-12 col-md-3 gy-2">
+                <div class="card h-100 bg-info" style="width: 100%;">
+                    <img src="./assets/img/card1.jpg" class="card-img-top p-2" alt="card1">
+                    <div class="card-body">
+                        <p class="card-text text-black">
+                            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quibusdam et ipsam magnam vel
+                            totam! Hic, rerum minus. Nisi unde iste temporibus necessitatibus, voluptates consequatur
+                            facere, ea et quaerat vero sequi!
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-12 col-md-3 gy-2">
+                <div class="card h-100 bg-info" style="width: 100%;">
+                    <img src="./assets/img/card2.jpg" class="card-img-top p-2" alt="card2">
+                    <div class="card-body">
+                        <p class="card-text text-black">
+                            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quibusdam et ipsam magnam vel
+                            totam! Hic, rerum minus. Nisi unde iste temporibus necessitatibus, voluptates consequatur
+                            facere, ea et quaerat vero sequi!
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-12 col-md-3 gy-2">
+                <div class="card h-100 bg-info" style="width: 100%;">
+                    <img src="./assets/img/card3.jpg" class="card-img-top p-2" alt="card3">
+                    <div class="card-body">
+                        <p class="card-text text-black">
+                            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quibusdam et ipsam magnam vel
+                            totam! Hic, rerum minus. Nisi unde iste temporibus necessitatibus, voluptates consequatur
+                            facere, ea et quaerat vero sequi!
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-12 col-md-3 gy-2">
+                <div class="card h-100 bg-info" style="width: 100%;">
+                    <img src="./assets/img/card4.jpg" class="card-img-top p-2" alt="card4">
+                    <div class="card-body">
+                        <p class="card-text text-black">
+                            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quibusdam et ipsam magnam vel
+                            totam! Hic, rerum minus. Nisi unde iste temporibus necessitatibus, voluptates consequatur
+                            facere, ea et quaerat vero sequi!
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+
+        </div>
+
+
+        <!-- CONTACTO -->
+        <div class="container-fluid row justify-content-center pt-5 pb-3" id="contacto">
+            <h2 class="text-center">CONTACTO</h2>
+            <hr>
+            <div class="row col-12 col-lg-8">
+
+                <form>
+                    <div class="mb-3">
+                        <label for="exampleFormControlInput1" class="form-label">Nombre</label>
+                        <input type="email" class="form-control" id="exampleFormControlInput1"
+                            placeholder="Ingresa tus datos correctamente">
+                    </div>
+                    <div class="mb-3">
+                        <label for="exampleFormControlInput1" class="form-label">Email</label>
+                        <input type="email" class="form-control" id="exampleFormControlInput1"
+                            placeholder="ejemplo@correo.com">
+                    </div>
+
+                    <div class="mb-3">
+                        <label for="exampleFormControlTextarea1" class="form-label">Mensaje</label>
+                        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                    </div>
+
+                    <button type="submit" class="btn btn-info text-white" id="btn-enviar">Enviar
+                    </button>
+                </form>
+            </div>
+        </div>
+
+        <div id="msg" class="container row col-4 text-center m-auto border rounded-3 bg-success text-white flex">
+            <p class="pt-2">Correo enviado!</p>
+            <p class="pb-2">Pronto nos pondremos en contacto contigo :)</p>
+        </div>
+
+    </section>
+
+    <!-- FOOTER -->
+    <footer>
+        <nav class="navbar container-fluid pt-3 px-5" id="footer-bg">
+
+            <a class="navbar-brand" href="#navbar">
+                <img src="./assets/img/viajes.svg" alt="icono" width="30px">
+                <span class="fw-bold">VIAJES CHILE</span>
+            </a>
+
+            <div class="justify-content-end">
+                <a class="navbar-brand" href="https://www.facebook.com/">
+                    <i class="fa-brands fa-facebook fs-2" src="/docs/5.3/assets/brand/bootstrap-logo.svg"
+                        alt="Facebook"></i>
+                </a>
+
+                <a class="navbar-brand" href="https://www.facebook.com/">
+                    <i class="fa-brands fa-x-twitter fs-2" src="/docs/5.3/assets/brand/bootstrap-logo.svg"
+                        alt="X-Twitter"></i>
+                </a>
+
+                <a class="navbar-brand" href="https://www.facebook.com/">
+                    <i class="fa-brands fa-linkedin-in fs-2" src="/docs/5.3/assets/brand/bootstrap-logo.svg"
+                        alt="LinkedIn"></i>
+                </a>
+
+                <a class="navbar-brand" href="https://www.facebook.com/">
+                    <i class="fa-brands fa-github fs-2" src="/docs/5.3/assets/brand/bootstrap-logo.svg"
+                        alt="GitHub"></i>
+                </a>
+            </div>
+
+        </nav>
+    </footer>
+
+</body>
+
+</html>
